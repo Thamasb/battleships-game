@@ -33,3 +33,10 @@ for i in range(NUM_SHIPS):
             grid[x][y] = SHIP_SYMBOL
             ship_placed = True
 
+# Define a function to display the grid
+def display_grid():
+    print(" " + " ".join(str(i) for i in range(GRID_SIZE)))
+    print(" +" + "-" * (GRID_SIZE * 2 - 1) + "+")
+    for i in range(GRID_SIZE):
+        print("{:2d}|".format(i) - " ".join(grid)[i] + "|")
+    print(" +" + "-" * (GRID_SIZE * 2 - 1) + "+")
