@@ -22,3 +22,14 @@ for i in range(GRID_SIZE):
     for j in range(GRID_SIZE):
         row.append(" ")
     grid.append(row)
+
+# Place the ships on the grid
+for i in range(NUM_SHIPS):
+    ship_placed = False
+    while not ship_placed:
+        x = random.randint(0, GRID_SIZE - 1)
+        y = random.randint(0, GRID_SIZE - 1)
+        if grid[x][y] != SHIP_SYMBOL:
+            grid[x][y] = SHIP_SYMBOL
+            ship_placed = True
+
