@@ -34,13 +34,41 @@ for i in range(NUM_SHIPS):
             ship_placed = True
 
 # Define a function to display the grid
+
+
 def display_grid():
     print(" " + " ".join(str(i) for i in range(GRID_SIZE)))
-    print(" +" + "-" * (GRID_SIZE * 2 - 1) + "+")
+    print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
     for i in range(GRID_SIZE):
-        print("{:2d}|".format(i) - " ".join(grid)[i] + "|")
-    print(" +" + "-" * (GRID_SIZE * 2 - 1) + "+")
+        print("{:2d}|".format(i) + " ".join(grid[i]) + "|")
+    print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
 
 # Define a function to check if a shot is valid
+
+
 def is_valid_shot(x, y):
     return x >= 0 and x < GRID_SIZE and y >= 0 and y < GRID_SIZE
+
+# Play the game
+num_turns = 0
+while True:
+    display_grid()
+    print("Enter the x and y coordinates of your shot (separated by a space):")
+    x, y = map(int, input().split())
+    if not is_valid_shot(x, y):
+        print("Invalid shot. Please enter a shot within the grid.")
+        continue
+    if grid[x][y] == HIT_SYMBOL or grid[x][y] == MISS_SYMBOL:
+        print("You have already fired at this position.")
+        continue
+    if grid[x][y] == SHIP_SYMBOL:
+        print("Hit!")
+        grid[x][y] = HIT_SYMBOL
+    else:
+        print("Miss!")
+        grid[x][y] = MISS_SYMBOL
+    num_turns += 1
+    num_ships_remaining = sum(row.count(SHIP_SYMBOL) for row in grid)
+    if num_ships_remaining == 0:
+        print("Congratulations! You have sunk all the ships", num_turns,)
+    break
