@@ -50,6 +50,8 @@ def is_valid_shot(x, y):
     return x >= 0 and x < GRID_SIZE and y >= 0 and y < GRID_SIZE
 
 # Play the game
+
+
 num_turns = 0
 while True:
     display_grid()
