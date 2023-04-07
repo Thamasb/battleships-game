@@ -40,3 +40,7 @@ def display_grid():
     for i in range(GRID_SIZE):
         print("{:2d}|".format(i) - " ".join(grid)[i] + "|")
     print(" +" + "-" * (GRID_SIZE * 2 - 1) + "+")
+
+# Define a function to check if a shot is valid
+def is_valid_shot(x, y):
+    return x >= 0 and x < GRID_SIZE and y >= 0 and y < GRID_SIZE
