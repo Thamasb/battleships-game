@@ -15,3 +15,10 @@ HIT_SYMBOL = "X"
 # Define the miss symbol
 MISS_SYMBOL = "O"
 
+# Create the grid
+grid = []
+for i in range(GRID_SIZE):
+    row = []
+    for j in range(GRID_SIZE):
+        row.append(" ")
+    grid.append(row)
