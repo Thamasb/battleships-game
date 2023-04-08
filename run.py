@@ -1,4 +1,4 @@
-import random
+from random import randint
 
 # Define the grid size
 GRID_SIZE = 10
@@ -27,8 +27,8 @@ for i in range(GRID_SIZE):
 for i in range(NUM_SHIPS):
     ship_placed = False
     while not ship_placed:
-        x = random.randint(0, GRID_SIZE - 1)
-        y = random.randint(0, GRID_SIZE - 1)
+        x = randint(0, GRID_SIZE - 1)
+        y = randint(0, GRID_SIZE - 1)
         if grid[x][y] != SHIP_SYMBOL:
             grid[x][y] = SHIP_SYMBOL
             ship_placed = True
@@ -50,6 +50,15 @@ def is_valid_shot(x, y):
     return x >= 0 and x < GRID_SIZE and y >= 0 and y < GRID_SIZE
 
 # Play the game
+
+
+def count_hit_ships(board):
+    count = 0
+    for row in board:
+        for column in row:
+            if column == "X":
+                count += 1
+    return count
 
 
 num_turns = 0
