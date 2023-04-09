@@ -37,11 +37,21 @@ for i in range(NUM_SHIPS):
 
 
 def display_grid():
-    print(" " + " ".join(str(i) for i in range(GRID_SIZE)))
+    print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
     print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
+    # for i in range(GRID_SIZE):
+    #     print("{:2d}|".format(i) + " ".join(grid[i]) + "|")
+    # print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
     for i in range(GRID_SIZE):
-        print("{:2d}|".format(i) + " ".join(grid[i]) + "|")
-    print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
+        print("{:2d}|".format(i), end="")
+        for j in range(GRID_SIZE):
+            if grid[i][j] == SHIP_SYMBOL:
+                print(" ", end="")
+            else:
+                print(grid[i][j], end="")
+            print(" ", end="")
+        print("|")
+    print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
 
 # Define a function to check if a shot is valid
 
