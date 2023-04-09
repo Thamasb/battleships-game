@@ -72,7 +72,8 @@ def count_hit_ships(board):
 
 
 num_turns = 0
-while True:
+win = False 
+while num_turns < 10:
     display_grid()
     print("Enter the x and y coordinates of your shot (separated by a space):")
     x, y = map(int, input().split())
