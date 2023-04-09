@@ -38,7 +38,7 @@ for i in range(NUM_SHIPS):
 
 def display_grid():
     print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
-    print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
+    print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
     # for i in range(GRID_SIZE):
     #     print("{:2d}|".format(i) + " ".join(grid[i]) + "|")
     # print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
