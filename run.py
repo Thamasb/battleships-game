@@ -51,7 +51,7 @@ def display_grid():
                 print(grid[i][j], end="")
             print(" ", end="")
         print("|")
-    print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
+    print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
 
 # Define a function to check if a shot is valid
 
@@ -100,9 +100,9 @@ while num_turns < 10:
         win = True
         break
     else:
-        print("You have" + str(10-num_turns) + "shoots left")
+        print("You have " + str(10-num_turns) + " shoots left")
 
 if (not win):
     print("FAILED! You could not sink all the ships in given shots. Try again")
-    print("You sunk"+str(NUM_SHIPS-count_hit_ships(grid)) + 
-          "ships out of" + str(NUM_SHIPS)+"ships")
+    print("You sunk "+str(NUM_SHIPS-count_hit_ships(grid)) + 
+          " ships out of" + str(NUM_SHIPS)+" ships")
