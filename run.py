@@ -37,6 +37,7 @@ for i in range(NUM_SHIPS):
 
 
 def display_grid():
+    print("Welcome")
     print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
     # for i in range(GRID_SIZE):
@@ -72,7 +73,7 @@ def count_hit_ships(board):
 
 
 num_turns = 0
-win = False 
+win = False
 while num_turns < 10:
     display_grid()
     print("Enter the x and y coordinates of your shot (separated by a space):")
@@ -104,5 +105,5 @@ while num_turns < 10:
 
 if (not win):
     print("FAILED! You could not sink all the ships in given shots. Try again")
-    print("You sunk "+str(NUM_SHIPS-count_hit_ships(grid)) + 
+    print("You sunk "+str(NUM_SHIPS-count_hit_ships(grid)) +
           " ships out of" + str(NUM_SHIPS)+" ships")
