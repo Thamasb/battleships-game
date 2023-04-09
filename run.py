@@ -37,7 +37,18 @@ for i in range(NUM_SHIPS):
 
 
 def display_grid():
-    print("Welcome")
+    print(
+        """
+        ********************************
+        Welcome to the Battleships Game
+        Number of ships: 5
+        Number of shots: 10
+        O - Missed shot
+        X - Hit
+        Enter your shots below the table
+        ********************************
+        """
+        )
     print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
     # for i in range(GRID_SIZE):
