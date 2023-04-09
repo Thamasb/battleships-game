@@ -126,13 +126,17 @@ Zodiac button | Checked when clicked Zodiac button, quiz startred or not | PASS
 Planet button| Checked when clicked Planet button, quiz startred or not | PASS
 
 
-# The Finished Website
+# The Finished Game
 
-## Desktop appearance
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Index   | ![Index](https://res.cloudinary.com/duxsycizt/image/upload/v1678400856/zodiac-quiz/screen-pc1-1_vyhroc.png)  |
-| Username required   | ![Username required](https://res.cloudinary.com/duxsycizt/image/upload/v1678400856/zodiac-quiz/screen-pc2-1_y3fl6a.png)  |
+| Start   | ![Start](https://res.cloudinary.com/duxsycizt/image/upload/v1681078176/battleships-game/Battleship-0_h68nhw.png)  |
+| Invalid input    | ![Invalid input](https://res.cloudinary.com/duxsycizt/image/upload/v1681077803/battleships-game/Battleship-5_noyb5h.png)  |
+| Missed shot   | ![Missed shot](https://res.cloudinary.com/duxsycizt/image/upload/v1681078041/battleships-game/Battleship-6_ayuxtc.png)  |
+| Hit   | ![Hit](https://res.cloudinary.com/)  |
+| Final results   | ![Final result](https://res.cloudinary.com/)  |
+
+
 
 
 
@@ -140,7 +144,17 @@ You can visit the deployeded website [here](https://battleships-game11.herokuapp
 
 # Bugs
 
-- I try to use bare except code but I had problem with that, after it I found how can I use it without error message.
+## Solved bugs
+- At the beginning of the work the ships (S) were not invisible, but solved.
+- I had many warning messages but most of them coming from the template so I changed the variable names, after that the warnings are gone.
+- During the work I used [Pythonchecker](https://www.pythonchecker.com/) and followed the instructions from the website but couple of instructions are doesn't worked well -like the whitespaces- so I ignored it otherwise the table looks bad. 
+- I tried to use bare 'except' code but I had problem with that, after it I found how can I use it without error message.
+- I missed a couple of whitespaces and tabs but solved during the work.
+- At the end of the game the final result was incorrect, when I found the problem I solved.
+- The last shot was missed from the table than I realized, the last table with all shots (10) missing but solved.
+
+## Unsolved bugs
+No bugs remaining
 
 # Deployment
 
