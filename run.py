@@ -53,13 +53,13 @@ def display_grid():
     # for i in range(GRID_SIZE):
     #     print("{:2d}|".format(i) + " ".join(grid[i]) + "|")
     # print(" + " + " - " * (GRID_SIZE * 2 - 1) + " + ")
-    for i in range(GRID_SIZE):
-        print("{:2d}|".format(i), end="")
-        for j in range(GRID_SIZE):
-            if grid[i][j] == SHIP_SYMBOL:
+    for index in range(GRID_SIZE):
+        print("{:2d}|".format(index), end="")
+        for jcol in range(GRID_SIZE):
+            if grid[index][jcol] == SHIP_SYMBOL:
                 print(" ", end="")
             else:
-                print(grid[i][j], end="")
+                print(grid[index][jcol], end="")
             print(" ", end="")
         print("|")
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
@@ -67,16 +67,16 @@ def display_grid():
 # Define a function to check if a shot is valid
 
 
-def is_valid_shot(x, y):
-    return x >= 0 and x < GRID_SIZE and y >= 0 and y < GRID_SIZE
+def is_valid_shot(xval, yval):
+    return xval >= 0 and xval < GRID_SIZE and yval >= 0 and yval < GRID_SIZE
 
 # Play the game
 
 
 def count_hit_ships(board):
     count = 0
-    for row in board:
-        for column in row:
+    for rowval in board:
+        for column in rowval:
             if column == "X":
                 count += 1
     return count
