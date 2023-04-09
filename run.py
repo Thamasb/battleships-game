@@ -78,7 +78,7 @@ while num_turns < 10:
     print("Enter the x and y coordinates of your shot (separated by a space):")
     try:
         x, y = map(int, input().split())
-    except:
+    except Exception():
         print("Invalid input. Please enter two integers separated by a space.")
         continue
     if not is_valid_shot(x, y):
