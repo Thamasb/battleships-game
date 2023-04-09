@@ -25,7 +25,6 @@ This is a simple implementation of the Battleships game in Python. The game is p
 - Deployment
 - Credits
     - Content
-    - Media
     - Acknowledgements
 
 # User Experience
@@ -159,7 +158,10 @@ The project has been deployed using [Heroku](https://id.heroku.com/) using the f
 
 ## Content
 
+- How to code battleship in Python [Youtube](https://www.youtube.com/watch?v=tF1WRCrd_HQ)
+- [Slack Community](https://slack.com/intl/en-ie/) used and consulted for inspiration.
 - All content was written by the developer.
+
 
 ## Acknowledgements
 
