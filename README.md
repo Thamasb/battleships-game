@@ -83,6 +83,7 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
  - [GitHub](https://github.com/)
  - [Heroku](https://id.heroku.com/) was used to deploy the application.
  - [Miro](https://miro.com/) was used to create the program flowchart.
+ - [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the Python code for PEP8 requirements.
  
  
 # Testing
@@ -101,9 +102,9 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 
 ## Code validation
 
-- The [PEP8 online check](http://pep8online.com/) was used continuosly during the development proces to validate the Python code for PEP8 requirements. For this reason no before and after snapshots are available. 
+The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was used continuosly during the development proces to validate the Python code for PEP8 requirements. For this reason no before and after snapshots are available. 
 
-![Python Code](https://res.cloudinary.com/)
+![Python Code](https://res.cloudinary.com/duxsycizt/image/upload/v1681137605/battleships-game/Screenshot_2023-04-10_153929_usoty3.png)
 
 
 ## Manual Testing
@@ -123,8 +124,8 @@ Planet button| Checked when clicked Planet button, quiz startred or not | PASS
 | Start   | ![Start](https://res.cloudinary.com/duxsycizt/image/upload/v1681078176/battleships-game/Battleship-0_h68nhw.png)  |
 | Invalid input    | ![Invalid input](https://res.cloudinary.com/duxsycizt/image/upload/v1681077803/battleships-game/Battleship-5_noyb5h.png)  |
 | Missed shot   | ![Missed shot](https://res.cloudinary.com/duxsycizt/image/upload/v1681078041/battleships-game/Battleship-6_ayuxtc.png)  |
-| Hit   | ![Hit](https://res.cloudinary.com/)  |
-| Final results   | ![Final result](https://res.cloudinary.com/)  |
+| Hit   | ![Hit](https://res.cloudinary.com/duxsycizt/image/upload/v1681138102/battleships-game/Screenshot_2023-04-10_154803_v9r3uf.png)  |
+| Final results   | ![Final result](https://res.cloudinary.com/duxsycizt/image/upload/v1681137974/battleships-game/Screenshot_2023-04-10_154541_kdjaly.png)  |
 
 
 
@@ -137,7 +138,7 @@ You can visit the deployeded website [here](https://battleships-game11.herokuapp
 ## Solved bugs
 - At the beginning of the work the ships (S) were not invisible, but solved.
 - I had many warning messages but most of them coming from the template so I changed the variable names, after that the warnings are gone.
-- During the work I used [Pythonchecker](https://www.pythonchecker.com/) and followed the instructions from the website but couple of instructions are doesn't worked well -like the whitespaces- so I ignored it otherwise the table looks bad. 
+- During the work I used [CI Python Linter](https://pep8ci.herokuapp.com/) and followed the instructions from the website but couple of instructions are doesn't worked well -like the whitespaces- so I ignored it otherwise the table looks bad. 
 - I tried to use bare 'except' code but I had problem with that, after it I found how can I use it without error message.
 - I missed a couple of whitespaces and tabs but solved during the work.
 - At the end of the game the final result was incorrect, when I found the problem I solved.
