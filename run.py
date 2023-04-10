@@ -134,5 +134,5 @@ while num_turns < 10:
 if (not win):
     print("FAILED! You could not sink all the ships in given shots. Try again")
     final_result()
-    print("You sunk "+str(NUM_SHIPS-count_hit_ships(grid)) +
+    print("You sunk "+str(abs(count_hit_ships(grid)-NUM_SHIPS)) +
           " ships out of " + str(NUM_SHIPS)+" ships")
