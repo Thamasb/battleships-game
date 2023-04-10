@@ -82,6 +82,21 @@ def count_hit_ships(board):
     return count
 
 
+def final_result():
+    """
+    function to print the final grid with hits , miss and ships
+    """
+    print(" " + " ".join(str(i) for i in range(GRID_SIZE)))
+    print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
+    for index in range(GRID_SIZE):
+        print("{:2d}|".format(index), end="")
+        for jcol in range(GRID_SIZE):
+            print(grid[index][jcol], end="")
+            print(" ", end="")
+        print("|")
+    print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
+
+
 num_turns = 0
 win = False
 while num_turns < 10:
@@ -115,5 +130,6 @@ while num_turns < 10:
 
 if (not win):
     print("FAILED! You could not sink all the ships in given shots. Try again")
+    final_result()
     print("You sunk "+str(NUM_SHIPS-count_hit_ships(grid)) +
           " ships out of " + str(NUM_SHIPS)+" ships")
