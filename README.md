@@ -25,12 +25,14 @@ To run the game, simply execute the Python script. The game will prompt the play
     - Project goals
     - User stories
     - Flowchart
+- Features 
 - Technologies used
     - Languages
     - Programs, frameworks
 - Testing
     - Testing user stories
     - Code validation
+    - Manual testing
 - The finished Game
 - Bugs
 - Deployment
@@ -69,7 +71,9 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 | Flowchart   | ![Flowchart](https://res.cloudinary.com/duxsycizt/image/upload/v1681083582/battleships-game/My_First_Board_uapqvs.jpg)  |
 |              |                                                            |
 
+# Features
 
+-->
 
 # Technologies Used
 
@@ -120,8 +124,12 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
 ![Python Code](https://res.cloudinary.com/duxsycizt/image/upload/v1681137605/battleships-game/Screenshot_2023-04-10_153929_usoty3.png)
 
 
+## Manual testing
+
 
 # The Finished Game
+
+---->
 
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
@@ -174,6 +182,7 @@ The project has been deployed using [Heroku](https://id.heroku.com/) using the f
 
 ## Acknowledgements
 
+ - Marcel Mulders mentor
  - [Code Institute](https://codeinstitute.net/ie/)
  - [YouTube - tutorials ](https://www.youtube.com/)
  - [Slack Community](https://slack.com/intl/en-ie/) 

@@ -136,4 +136,5 @@ if (not win):
     print("FAILED! You could not sink all the ships in given shots. Try again")
     final_result()
     print("You sunk "+str(count_hit_ships(grid)) +
-          " ship(s) out of " + str(NUM_SHIPS)+" ships")
+          " ship(s) out of " + str(NUM_SHIPS)+" ships"
+          "Click 'Run program' at the top left if you want to play again.")
