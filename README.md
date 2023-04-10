@@ -3,16 +3,28 @@
 ![Battleships Game](https://res.cloudinary.com/duxsycizt/image/upload/v1681071164/battleships-game/Screenshot01_zctbai.png) 
 
 ## Introduction
-This is a simple implementation of the Battleships game in Python. The game is played on grids on which each player's fleet of battleships are marked. The locations of the fleets are concealed from the other player. Players call shots at the other player's ships, and the objective of the game is to destroy the opposing player's fleet.
+
+This is a simple implementation of the Battleships game in Python. In this game, the payer has to sink all the ships in the grid within a limited number of turns.
+- The grid size is defined as 10.
+- The number of ships is defined as 5.
+- The ship symbol is defined as "S".
+- The hit symbol is defined as "X".
+- The miss symbol is defined as "O".
+- The ships are randomly placed on the grid.
+- The player has 10 turns to sink all the ships.
+- The player has to enter the x and y coordinates of their shot (separated by a space).
+- The game displays whether the shot was a hit or a miss.
+- The game ends when all the ships are sunk or when the player has used all their turns.
+- At the end of the game, the player is informed of the number of ships they sunk.
+
+To run the game, simply execute the Python script. The game will prompt the player to enter their shots below the table.
 
 
 # Table of contents
 - User Experience
     - Project goals
     - User stories
-    - Wireframes
-- Features
-    - Categories
+    - Flowchart
 - Technologies used
     - Languages
     - Programs, frameworks
@@ -20,7 +32,7 @@ This is a simple implementation of the Battleships game in Python. The game is p
     - Testing user stories
     - Code validation
     - Manual testing
-- The finished Website
+- The finished Game
 - Bugs
 - Deployment
 - Credits
@@ -32,48 +44,29 @@ This is a simple implementation of the Battleships game in Python. The game is p
 
 ## Project Goals
 
-- The game is
+Create a graphical interface for the game that includes a playing rid. Generate a random arrangement of ships on the playing grid. Provide feedback to the user about whether their guess was a hit or miss. Keep track of the number of turns it takes the user to find all the ships. Allow the user to play again with a new random arrangement of ships.
 
 
 ## User Stories
 
 - As a user I want to be able to start the game.
-- As a user I want to be able to enter a grid size at the beginning of the game.
-- As a user I want to be able to enter a number of ships at the beginning of the game.
-- As a user I want to be able to informed if my shot is a miss or a hit.
-- As a user I want to be able to check the correct/incorrect answers.
-- As a user I want to be able to check the computer shots are miss or hits.
-- As a user I want to be able to check who is the winner.
+- As a user I want to be able to informed about the game and rules.
+- As a user I want to be able mark my shots on the table. 
+- As a user I want to be able to know how many ships are on the table.
+- As a user I want to be able to know how many shot I have.
+- As a user I want to be able to know how many shots left
+- As a user I want to be able to informed if my shot is hit or missedd a ship.
+- As a user I want to be able to check how many ships shunk.
 - As a user I want to be able to restart the game.
    
 
-## Wireframes
+## Flowchart
 
-To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop/free-trial-download.html) has been used.
-
-### Desktop appearance 
+To create the program flowchart [Miro](https://miro.com/) has been used.
 |              |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Index   | ![Index](https://res.cloudinary.com/)  |
-| Quiz   | ![Quiz](https://res.cloudinary.com/)  |
-
-
-
-# Features
-
-- Simple, clear color scheme and responsive design.
-
-
-
-### Results
-- The results show the numbers of the correct and incorrect answers at the end of the quiz.
-
-    ![Scores](https://res.cloudinary.com/)
-
-### Next
-- The next button helps to move for the next question. The button pops up when the user choose an answer.
-
-    ![Next](https://res.cloudinary.com/duxsycizt/image/upload/v1678315065/zodiac-quiz/Next_xziz5m.png)
+| Flowchart   | ![Flowchart](https://res.cloudinary.com/duxsycizt/image/upload/v1681083582/battleships-game/My_First_Board_uapqvs.jpg)  |
+|              |                                                            |
 
 
 
@@ -95,8 +88,12 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 # Testing
 
 - As a user I want to be able to start the game.
-- As a user I want ot be able mark my shots on the table. 
-- As a user I want to be able to informed if my shot is a miss or a hit.
+- As a user I want to be able to informed about the game and rules.
+- As a user I want to be able mark my shots on the table. 
+- As a user I want to be able to know how many ships are on the table.
+- As a user I want to be able to know how many shot I have.
+- As a user I want to be able to know how many shots left
+- As a user I want to be able to informed if my shot is hit or missedd a ship.
 - As a user I want to be able to check how many ships shunk.
 - As a user I want to be able to restart the game.
 
@@ -111,14 +108,7 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 
 ## Manual Testing
 
-- The website has been tested on the following browsers and no appearance, responsiveness or functionality issues:
-    - [Google Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=Cj0KCQiAic6eBhCoARIsANlox86hgZbgr7LezxlhgcxIVG3unaCJ9euD76PGf5Ny3KPmZ6MhmI5FDYMaAn6oEALw_wcB&gclsrc=aw.ds)
-    - [Mozilla Firefox](https://www.mozilla.org/hu/firefox/new/)
-    - [Microsoft Edge](https://www.microsoft.com/en-us/edge?exp=e507&form=MA13FJ)
-    - [Safari](https://www.apple.com/safari/)
-
-
-- Common Elements Testing
+Common Elements Testing
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
