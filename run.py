@@ -48,6 +48,9 @@ print(
 
 
 def display_grid():
+    """
+    display function to print the grid
+    """
     print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
     # for i in range(GRID_SIZE):
