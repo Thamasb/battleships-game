@@ -31,7 +31,6 @@ To run the game, simply execute the Python script. The game will prompt the play
 - Testing
     - Testing user stories
     - Code validation
-    - Manual testing
 - The finished Game
 - Bugs
 - Deployment
@@ -49,15 +48,17 @@ Create a graphical interface for the game that includes a playing rid. Generate 
 
 ## User Stories
 
-- As a user I want to be able to start the game.
-- As a user I want to be able to informed about the game and rules.
-- As a user I want to be able mark my shots on the table. 
-- As a user I want to be able to know how many ships are on the table.
-- As a user I want to be able to know how many shot I have.
-- As a user I want to be able to know how many shots left
-- As a user I want to be able to informed if my shot is hit or missedd a ship.
-- As a user I want to be able to check how many ships shunk.
-- As a user I want to be able to restart the game.
+- As a user, I want to be able to start the game.
+- As a user, I want to be informed about the game rules.
+- As a user, I want to be able to mark my shots on the table. 
+- As a user, I want to know how many ships are on the table.
+- As a user, I want to know how many shots I have.
+- As a user, I want to know how many shots are left.
+- As a user, I want to be informed if my shots  hits or misses a ship.
+- As a user, I want to know how many ships have shunk.
+- As a user, I want to know where the missed ships are located on the board.
+- As a user, I want to be able to restart the game.
+
    
 
 ## Flowchart
@@ -89,14 +90,25 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 # Testing
 
 - As a user I want to be able to start the game.
-- As a user I want to be able to informed about the game and rules.
-- As a user I want to be able mark my shots on the table. 
-- As a user I want to be able to know how many ships are on the table.
-- As a user I want to be able to know how many shot I have.
-- As a user I want to be able to know how many shots left
-- As a user I want to be able to informed if my shot is hit or missedd a ship.
-- As a user I want to be able to check how many ships shunk.
-- As a user I want to be able to restart the game.
+    - To start the game, simply execute the Python script.
+- As a user I want to be informed about the game rules.
+    - At the beginning of the game, the user is provided with information about the game and rules.
+- As a user I want to be able to mark my shots on the table. 
+    - The process of marking shots is easy and the user is provided with text instructions. The player has to enter the x and y coordinates of their shot (separated by a space).
+- As a user, I want to know how many ships are on the table.
+    - At the beginning of the game, the user is informed about the number of ships on the board (5).
+- As a user, I want to know how many shots I have.
+    - At the beginning of the game, the user is informed about the numbers of shots available during the game (10).
+- As a user, I want to know how many shots are left.
+    - The user is informed during the game and check how many shots are left at the bottom of the board.
+- As a user I want to be informed if my shots  hits or misses a ship.
+    - There are two ways to check whether the shot hit or missed. On the board, the player can see "X" if it's a hit, and "O" if it's a missed shot. These instructions are also provided at the beginning of the game. The user is also informed after each shot with a message: "Hit!" if the shot hits, or "Miss!" if it misses.
+- As a user I want to know how many ships have shunk.
+    - At the end of the game, the user can check how many ships have sunk.
+- As a user I want to know where the missed ships are located on the board.
+    - At the end of the game the user can check the last board to see the locations of the enemy ships. The missed ships are marked as "S" and the sunk ships are marked as "X".
+- As a user, I want to be able to restart the game.
+    - The process to restart the game is easy:  the user can simply click "Run program" whenever they want to restart the game.
 
 
 
@@ -106,15 +118,6 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
 
 ![Python Code](https://res.cloudinary.com/duxsycizt/image/upload/v1681137605/battleships-game/Screenshot_2023-04-10_153929_usoty3.png)
 
-
-## Manual Testing
-
-Common Elements Testing
-
-TEST            | OUTCOME                          | PASS / FAIL  
---------------- | -------------------------------- | ---------------
-Zodiac button | Checked when clicked Zodiac button, quiz startred or not | PASS
-Planet button| Checked when clicked Planet button, quiz startred or not | PASS
 
 
 # The Finished Game
