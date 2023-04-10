@@ -125,11 +125,11 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
 
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Start   | ![Start](https://res.cloudinary.com/duxsycizt/image/upload/v1681078176/battleships-game/Battleship-0_h68nhw.png)  |
-| Invalid input    | ![Invalid input](https://res.cloudinary.com/duxsycizt/image/upload/v1681077803/battleships-game/Battleship-5_noyb5h.png)  |
-| Missed shot   | ![Missed shot](https://res.cloudinary.com/duxsycizt/image/upload/v1681078041/battleships-game/Battleship-6_ayuxtc.png)  |
-| Hit   | ![Hit](https://res.cloudinary.com/duxsycizt/image/upload/v1681138102/battleships-game/Screenshot_2023-04-10_154803_v9r3uf.png)  |
-| Final results   | ![Final result](https://res.cloudinary.com/duxsycizt/image/upload/v1681137974/battleships-game/Screenshot_2023-04-10_154541_kdjaly.png)  |
+| Start   | ![Start](https://res.cloudinary.com/duxsycizt/image/upload/v1681150418/battleships-game/Bship-start_lhidb0.png)  |
+| Invalid input    | ![Invalid input](https://res.cloudinary.com/duxsycizt/image/upload/v1681150478/battleships-game/Bship-invalid_dpcepz.png)  |
+| Missed shot   | ![Missed shot](https://res.cloudinary.com/duxsycizt/image/upload/v1681150506/battleships-game/Bship-miss_cjxgit.png)  |
+| Hit   | ![Hit](https://res.cloudinary.com/duxsycizt/image/upload/v1681150528/battleships-game/Bship-hit_k5vhie.png)  |
+| Final results   | ![Final result](https://res.cloudinary.com/duxsycizt/image/upload/v1681150590/battleships-game/Bship-final_kfr4ij.png)  |
 
 
 
