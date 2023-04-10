@@ -15,19 +15,6 @@ HIT_SYMBOL = "X"
 # Define the miss symbol
 MISS_SYMBOL = "O"
 
-# Welcome message and rules
-print(
-    """
-    ********************************
-    Welcome to the Battleships Game
-    Number of ships: 5
-    Number of shots: 10
-    O - Missed shot
-    X - Hit
-    Enter your shots below the table
-    ********************************
-    """)
-
 
 # Create the grid
 grid = []
@@ -48,6 +35,17 @@ for i in range(NUM_SHIPS):
             ship_placed = True
 
 # Define a function to display the grid
+print(
+    """
+    ********************************
+    Welcome to the Battleships Game
+    Number of ships: 5
+    Number of shots: 10
+    O - Missed shot
+    X - Hit
+    Enter your shots below the table
+    ********************************
+    """)
 
 
 def display_grid():
