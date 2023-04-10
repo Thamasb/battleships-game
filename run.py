@@ -15,6 +15,7 @@ HIT_SYMBOL = "X"
 # Define the miss symbol
 MISS_SYMBOL = "O"
 
+# Welcome message and rules
 print(
     """
     ********************************
@@ -53,7 +54,7 @@ def display_grid():
     """
     display function to print the grid
     """
-    print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
+    print("   " + " ".join(str(i) for i in range(GRID_SIZE)))
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
     # for i in range(GRID_SIZE):
     #     print("{:2d}|".format(i) + " ".join(grid[i]) + "|")

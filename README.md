@@ -85,6 +85,7 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
  - [Heroku](https://id.heroku.com/) was used to deploy the application.
  - [Miro](https://miro.com/) was used to create the program flowchart.
  - [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the Python code for PEP8 requirements.
+ - [Pythonchecker](https://www.pythonchecker.com/)
  
  
 # Testing
@@ -139,13 +140,13 @@ You can visit the deployeded website [here](https://battleships-game11.herokuapp
 # Bugs
 
 ## Solved bugs
-- At the beginning of the work the ships (S) were not invisible, but solved.
-- I had many warning messages but most of them coming from the template so I changed the variable names, after that the warnings are gone.
-- During the work I used [CI Python Linter](https://pep8ci.herokuapp.com/) and followed the instructions from the website but couple of instructions are doesn't worked well -like the whitespaces- so I ignored it otherwise the table looks bad. 
-- I tried to use bare 'except' code but I had problem with that, after it I found how can I use it without error message.
-- I missed a couple of whitespaces and tabs but solved during the work.
-- At the end of the game the final result was incorrect, when I found the problem I solved.
-- The last shot was missed from the table than I realized, the last table with all shots (10) missing but solved.
+- At the beginning of the work the ships (S) were visible instead of invisible, but I fixed it later.
+- I received several warning messages but most of them coming from the template, so I changed the variable names, and the warnings disappeared.
+- At the beginning of the work I used [Pythonchecker](https://www.pythonchecker.com/) and followed the instructions from the website. However, some instructions did not work well, like the whitespaces, so I ignored them; othervise, the table woukd look bad. 
+- I tried to use bare 'except' code but I encountered some problems. Later, I found out how to use it without any error messages.
+- I missed a few whitespaces and tabs, but I resolved them during the work.
+- At the end of the game, the final result was incorrect. However, I found the problem and fixed it. 
+- I noticed that the last shot was missing from the table. I added it to the last table that displayed all the shots that were missed. 
 
 ## Unsolved bugs
 No bugs remaining
