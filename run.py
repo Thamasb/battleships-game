@@ -86,7 +86,7 @@ def final_result():
     """
     function to print the final grid with hits , miss and ships
     """
-    print(" " + " ".join(str(i) for i in range(GRID_SIZE)))
+    print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
     for index in range(GRID_SIZE):
         print("{:2d}|".format(index), end="")
