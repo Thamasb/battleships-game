@@ -25,6 +25,7 @@ while True:
         break
     except ValueError():
         print("Invalid input. Please enter an integer between 5 and 20.")
+        continue
 
 grid = []
 for i in range(GRID_SIZE):
