@@ -20,23 +20,23 @@ This is a simple implementation of the Battleships game in Python. In this game,
 To run the game, simply execute the Python script. The game will prompt the player to enter their shots below the table.
 
 
-# Table of contents
-- User Experience
+# [Table of contents](#table-of-contents)
+- [User Experience](#user-experience)
     - Project goals
     - User stories
     - Flowchart
-- Features 
-- Technologies used
+- [Features](#features)
+- [Technologies used](#technologies-used)
     - Languages
     - Programs, frameworks
-- Testing
+- [Testing](#testing)
     - Testing user stories
     - Code validation
     - Manual testing
-- The finished Game
-- Bugs
-- Deployment
-- Credits
+- [The finished Game](#the-finished-game)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
     - Content
     - Acknowledgements
 
@@ -61,6 +61,7 @@ Create a graphical interface for the game that includes a playing rid. Generate 
 - As a user, I want to know where the missed ships are located on the board.
 - As a user, I want to be able to restart the game.
 
+[Back to top ⇧](#table-of-contents)
    
 
 ## Flowchart
@@ -73,7 +74,24 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 
 # Features
 
--->
+- Create the grid and placed the ships on the grid.
+- Target input
+    - Collect the target information (x, y coordinate) from the user.
+- Target input check
+    - Check if the input is valid or not. Valid if the numbers between 0 and 9 and space used between the values. 
+- Target output. 
+    - Print the shot on the board.
+    - Print X if hit.
+    - Print O if miss.
+- Counting the shots
+    - Number of shots 10, the game is over if the player used all the shots.
+- Display the final results
+    - After the last shot the final results display, with the missed ships
+    - The player win if hit all the ships.
+- Restart
+    - The player able to restert the game, the final massege assist.
+
+[Back to top ⇧](#table-of-contents)
 
 # Technologies Used
 
@@ -91,8 +109,11 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
  - [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the Python code for PEP8 requirements.
  - [Pythonchecker](https://www.pythonchecker.com/)
  
- 
+[Back to top ⇧](#table-of-contents)
+
 # Testing
+
+## Testing user stories
 
 - As a user I want to be able to start the game.
     - To start the game, simply execute the Python script.
@@ -122,6 +143,7 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was used continuosly during the development proces to validate the Python code for PEP8 requirements. For this reason no before and after snapshots are available. 
 
 ![Python Code](https://res.cloudinary.com/duxsycizt/image/upload/v1681137605/battleships-game/Screenshot_2023-04-10_153929_usoty3.png)
+
 
 
 ## Manual testing
@@ -178,41 +200,32 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
     <tr>
         <td>Finished game</td>
         <td>Checked when game over the results are adequate</td>
-        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681150418/battleships-game/Bship-start_lhidb0.png alt="Start game"></td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681410681/battleships-game/Scr-end_onba2b.png alt="Game over results"></td>
         <td>Pass</td>
     </tr>
+</table>
 
-
-FEATURE            | OUTCOME                          | PASS / FAIL  
---------------- | -------------------------------- | ---------------
-Start game | Checked when clicked 'Run Program' button, the program startred or not | PASS
-Target selection| Validate if value is empty | PASS
-Target selection| Validate if value is letter | PASS
-Target selection| Validate if value is invalid number | PASS
-Target selection| Validate if value isn't contain space | PASS
-Target selection| Validate if value is not a number| PASS
-Target selection| Validate if value is too high | PASS
-Target selection| Validate if value is too low  | PASS
-
-
+[Back to top ⇧](#table-of-contents)
 
 # The Finished Game
-
----->
 
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
 | Start   | ![Start](https://res.cloudinary.com/duxsycizt/image/upload/v1681150418/battleships-game/Bship-start_lhidb0.png)  |
 | Invalid input    | ![Invalid input](https://res.cloudinary.com/duxsycizt/image/upload/v1681150478/battleships-game/Bship-invalid_dpcepz.png)  |
+| Invalid input    | ![Invalid input4](https://res.cloudinary.com/duxsycizt/image/upload/v1681412642/battleships-game/final4_rywm9z.png)  |
+| Empty input | ![Invalid input1](https://res.cloudinary.com/duxsycizt/image/upload/v1681412250/battleships-game/final1_wy0ucf.png)  |
+| Invalid numbers | ![Invalid input2](https://res.cloudinary.com/duxsycizt/image/upload/v1681412431/battleships-game/final2_n7ffnj.png)  |
+| Invalid numbers | ![Invalid input3](https://res.cloudinary.com/duxsycizt/image/upload/v1681412527/battleships-game/final3_so9ubw.png)  |
 | Missed shot   | ![Missed shot](https://res.cloudinary.com/duxsycizt/image/upload/v1681150506/battleships-game/Bship-miss_cjxgit.png)  |
 | Hit   | ![Hit](https://res.cloudinary.com/duxsycizt/image/upload/v1681150528/battleships-game/Bship-hit_k5vhie.png)  |
-| Final results   | ![Final result](https://res.cloudinary.com/duxsycizt/image/upload/v1681150590/battleships-game/Bship-final_kfr4ij.png)  |
-
-
+| Final results   | ![Final result](https://res.cloudinary.com/duxsycizt/image/upload/v1681410950/battleships-game/Scr-final_i15hev.png)  |
 
 
 
 You can visit the deployeded website [here](https://battleships-game11.herokuapp.com/).
+
+[Back to top ⇧](#table-of-contents)
 
 # Bugs
 
@@ -228,6 +241,8 @@ You can visit the deployeded website [here](https://battleships-game11.herokuapp
 ## Unsolved bugs
 No bugs remaining
 
+[Back to top ⇧](#table-of-contents)
+
 # Deployment
 
 The project has been deployed using [Heroku](https://id.heroku.com/) using the following steps:
@@ -239,6 +254,8 @@ The project has been deployed using [Heroku](https://id.heroku.com/) using the f
 6. Go to the "Deployment method" under the "Deploy" tab select "GitHub" than "Connect to GitHub".
 7. Go to the "Connect to GitHub" section and "Search" the repostory to be deployed than "Connect".
 8. Choose "Automatic deploys" or "Manual deploys" to deploy your application.
+
+[Back to top ⇧](#table-of-contents)
 
 # Credits
 
@@ -255,3 +272,5 @@ The project has been deployed using [Heroku](https://id.heroku.com/) using the f
  - [Code Institute](https://codeinstitute.net/ie/)
  - [YouTube - tutorials ](https://www.youtube.com/)
  - [Slack Community](https://slack.com/intl/en-ie/) 
+
+ [Back to top ⇧](#table-of-contents)
