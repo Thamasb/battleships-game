@@ -126,6 +126,75 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
 
 ## Manual testing
 
+<table>
+    <tr>
+        <th>FEATURE</th>
+        <th>OUTCOME</th>
+        <th>EXAMPLE</th>
+        <th>PASS/FAIL</th>
+    </tr>
+    <tr>
+        <td>Start game</td>
+        <td>Checked when clicked 'Run Program' button, the program started or not</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681150418/battleships-game/Bship-start_lhidb0.png alt="Start game"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td rowspan=7>Target selection</td>
+        <td>Validate if value is empty</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681408362/battleships-game/Scr-invalid_mroiqi.png alt="Value is empty"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td> Validate if value is letter</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681408640/battleships-game/Scr-letter_rohkv3.png alt="Value is letter"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Validate if value is invalid number</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681409373/battleships-game/Scr-invalid3_kkcxmx.png alt="Value is invalid"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Validate if value isn't contain space</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681408975/battleships-game/Scr-notspace_eqgwzg.png alt="Value is not contain space"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Validate if value is not a number</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681409138/battleships-game/Scr-notnumber_sv50yn.png alt="Value is not number"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Validate if value is too high</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681409223/battleships-game/Scr-toohigh_gbuiwt.png alt="Value is too high"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Validate if value is too low</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681408876/battleships-game/Scr-invalid2_trwqhe.png alt="Value is too low"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Finished game</td>
+        <td>Checked when game over the results are adequate</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681150418/battleships-game/Bship-start_lhidb0.png alt="Start game"></td>
+        <td>Pass</td>
+    </tr>
+
+
+FEATURE            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Start game | Checked when clicked 'Run Program' button, the program startred or not | PASS
+Target selection| Validate if value is empty | PASS
+Target selection| Validate if value is letter | PASS
+Target selection| Validate if value is invalid number | PASS
+Target selection| Validate if value isn't contain space | PASS
+Target selection| Validate if value is not a number| PASS
+Target selection| Validate if value is too high | PASS
+Target selection| Validate if value is too low  | PASS
+
+
 
 # The Finished Game
 
