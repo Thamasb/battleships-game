@@ -1,10 +1,19 @@
 from random import randint
 
-GRID_SIZE = 10
+# GRID_SIZE = 10
 NUM_SHIPS = 5
 SHIP_SYMBOL = "S"
 HIT_SYMBOL = "X"
 MISS_SYMBOL = "O"
+
+while True:
+    try:
+        GRID_SIZE = int(input("Enter the grid size (between 5 and 20): "))
+        if GRID_SIZE < 5 or GRID_SIZE > 20:
+            raise ValueError()
+        break
+    except ValueError():
+        print("Invalid input. Please enter an integer between 5 and 20.")
 
 grid = []
 for i in range(GRID_SIZE):
