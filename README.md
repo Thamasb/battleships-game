@@ -74,22 +74,17 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 
 # Features
 
-- Create the grid and placed the ships on the grid.
-- Target input
-    - Collect the target information (x, y coordinate) from the user.
-- Target input check
-    - Check if the input is valid or not. Valid if the numbers between 0 and 9 and space used between the values. 
-- Target output. 
-    - Print the shot on the board.
-    - Print X if hit.
-    - Print O if miss.
-- Counting the shots
-    - Number of shots 10, the game is over if the player used all the shots.
-- Display the final results
-    - After the last shot the final results display, with the missed ships
-    - The player win if hit all the ships.
-- Restart
-    - The player able to restert the game, the final massege assist.
+|              |                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| Create a grid and place the ships on the grid.  | ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681419842/battleships-game/grid_pxkptq.png)  |
+| Target input: Collect the target information (x, y coordinate) from the user.| ![Targetinput](https://res.cloudinary.com/duxsycizt/image/upload/v1681420314/battleships-game/targetinput_pngevr.png)  |
+| Target input check: Check if the input is valid. The input is valid if the numbers are between 0 and 9 and there is a space used between the values.| ![Targetcheck](https://res.cloudinary.com/duxsycizt/image/upload/v1681408975/battleships-game/Scr-notspace_eqgwzg.png)![Targetcheck1](https://res.cloudinary.com/duxsycizt/image/upload/v1681409138/battleships-game/Scr-notnumber_sv50yn.png)![Targetcheck5](https://res.cloudinary.com/duxsycizt/image/upload/v1681409373/battleships-game/Scr-invalid3_kkcxmx.png)![Targetcheck6](https://res.cloudinary.com/duxsycizt/image/upload/v1681409223/battleships-game/Scr-toohigh_gbuiwt.png) ![Targetcheck7](https://res.cloudinary.com/duxsycizt/image/upload/v1681408876/battleships-game/Scr-invalid2_trwqhe.png)  
+| Target output: Print the shot on the board. Print 'X' if hit, 'O' if miss. | ![Targetcheck2](https://res.cloudinary.com/duxsycizt/image/upload/v1681420864/battleships-game/hit-miss_le5ben.png) 
+| Shot count: The game ends after 10 shots have been made. | ![Targetcheck3](https://res.cloudinary.com/duxsycizt/image/upload/v1681421023/battleships-game/shots1_dtw56o.png)![Targetcheck4](https://res.cloudinary.com/duxsycizt/image/upload/v1681421022/battleships-game/shots2_swzftf.png)![Targetcheck8](https://res.cloudinary.com/duxsycizt/image/upload/v1681421693/battleships-game/shots3_pohrvf.png)
+| Display the final results: After the last shot, display the final results. The player wins if they hit all the ships. | ![Targetcheck9](https://res.cloudinary.com/duxsycizt/image/upload/v1681410950/battleships-game/Scr-final_i15hev.png)
+| Restart: The player able to restert the game, the final massage assist.  | ![Targetcheck10](https://res.cloudinary.com/duxsycizt/image/upload/v1681421863/battleships-game/final5_jtzsim.png)
+
+
 
 [Back to top ⇧](#table-of-contents)
 
