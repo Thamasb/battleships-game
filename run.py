@@ -1,10 +1,21 @@
 from random import randint
 
-# GRID_SIZE = 10
 NUM_SHIPS = 5
 SHIP_SYMBOL = "S"
 HIT_SYMBOL = "X"
 MISS_SYMBOL = "O"
+
+print(
+    """
+    ********************************
+    Welcome to the Battleships Game
+    Number of ships: 5
+    Number of shots: 10
+    O - Missed shot
+    X - Hit
+    Enter your shots below the table
+    ********************************
+    """)
 
 while True:
     try:
@@ -30,18 +41,6 @@ for i in range(NUM_SHIPS):
         if grid[x][y] != SHIP_SYMBOL:
             grid[x][y] = SHIP_SYMBOL
             ship_placed = True
-
-print(
-    """
-    ********************************
-    Welcome to the Battleships Game
-    Number of ships: 5
-    Number of shots: 10
-    O - Missed shot
-    X - Hit
-    Enter your shots below the table
-    ********************************
-    """)
 
 
 def display_grid():
