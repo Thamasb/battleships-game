@@ -33,7 +33,6 @@ for i in range(NUM_SHIPS):
             grid[x][y] = SHIP_SYMBOL
             ship_placed = True
 
-# Define a function to display the grid
 print(
     """
     ********************************
@@ -65,7 +64,6 @@ def display_grid():
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
 
 
-# Define a function to check if a shot is valid
 def is_valid_shot(xval, yval):
     """
     function to check if the shot is valid
@@ -73,10 +71,9 @@ def is_valid_shot(xval, yval):
     return xval >= 0 and xval < GRID_SIZE and yval >= 0 and yval < GRID_SIZE
 
 
-# Play the game
 def count_hit_ships(board):
     """
-    function to check if the shot is valid
+    function to count the hit ships
     """
     count = 0
     for rowval in board:
@@ -88,7 +85,7 @@ def count_hit_ships(board):
 
 def final_result():
     """
-    function to print the final grid with hits , miss and ships
+    function to print the final grid with hits, miss and ships
     """
     print("  " + " ".join(str(i) for i in range(GRID_SIZE)))
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
