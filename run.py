@@ -15,7 +15,6 @@ HIT_SYMBOL = "X"
 # Define the miss symbol
 MISS_SYMBOL = "O"
 
-
 # Create the grid
 grid = []
 for i in range(GRID_SIZE):
@@ -65,16 +64,20 @@ def display_grid():
         print("|")
     print(" + " + "-" * (GRID_SIZE * 2 - 1) + " + ")
 
+
 # Define a function to check if a shot is valid
-
-
 def is_valid_shot(xval, yval):
+    """
+    function to check if the shot is valid
+    """
     return xval >= 0 and xval < GRID_SIZE and yval >= 0 and yval < GRID_SIZE
 
+
 # Play the game
-
-
 def count_hit_ships(board):
+    """
+    function to check if the shot is valid
+    """
     count = 0
     for rowval in board:
         for column in rowval:
