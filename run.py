@@ -21,9 +21,9 @@ while True:
     try:
         GRID_SIZE = int(input("Enter the grid size (between 5 and 10): "))
         if GRID_SIZE < 5 or GRID_SIZE > 10:
-            raise ValueError()
+            raise ValueError
         break
-    except ValueError():
+    except ValueError:
         print("Invalid input. Please enter an integer between 5 and 10.")
         continue
 
