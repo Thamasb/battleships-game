@@ -5,7 +5,7 @@
 ## Introduction
 
 This is a simple implementation of the Battleships game in Python. In this game, the payer has to sink all the ships in the grid within a limited number of turns.
-- The grid size is defined as 10.
+- The player has enter the grid size between 5 and 10.
 - The number of ships is defined as 5.
 - The ship symbol is defined as "S".
 - The hit symbol is defined as "X".
@@ -51,6 +51,7 @@ Create a graphical interface for the game that includes a playing rid. Generate 
 ## User Stories
 
 - As a user, I want to be able to start the game.
+- As a user, I want to be able to set the grid size.
 - As a user, I want to be informed about the game rules.
 - As a user, I want to be able to mark my shots on the table. 
 - As a user, I want to know how many ships are on the table.
@@ -69,7 +70,7 @@ Create a graphical interface for the game that includes a playing rid. Generate 
 To create the program flowchart [Miro](https://miro.com/) has been used.
 |              |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Flowchart   | ![Flowchart](https://res.cloudinary.com/duxsycizt/image/upload/v1681083582/battleships-game/My_First_Board_uapqvs.jpg)  |
+| Flowchart   | ![Flowchart](https://res.cloudinary.com/duxsycizt/image/upload/v1681434405/battleships-game/miro_qrwsli.png)  |
 |              |                                                            |
 
 # Features
@@ -112,6 +113,8 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 
 - As a user I want to be able to start the game.
     - To start the game, simply execute the Python script.
+- As a user, I want to be able to set the grid size.
+    - At the beginning of the game the user able to set to grid size between 5 and 10.
 - As a user I want to be informed about the game rules.
     - At the beginning of the game, the user is provided with information about the game and rules.
 - As a user I want to be able to mark my shots on the table. 
@@ -137,7 +140,7 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 
 The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was used continuosly during the development proces to validate the Python code for PEP8 requirements. For this reason no before and after snapshots are available. 
 
-![Python Code](https://res.cloudinary.com/duxsycizt/image/upload/v1681137605/battleships-game/Screenshot_2023-04-10_153929_usoty3.png)
+![Python Code](https://res.cloudinary.com/duxsycizt/image/upload/v1681433570/battleships-game/small11_nl9ou3.png)
 
 
 
@@ -203,9 +206,14 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Finished game</td>
+        <td rowspan=2>Finished game</td>
         <td>Checked when game over the results are adequate</td>
         <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681410681/battleships-game/Scr-end_onba2b.png alt="Game over results"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Checked when game over the results are adequate</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681433017/battleships-game/small10_rpj7tx.png alt="Game over results"></td>
         <td>Pass</td>
     </tr>
 </table>
@@ -226,6 +234,8 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
 | Missed shot   | ![Missed shot](https://res.cloudinary.com/duxsycizt/image/upload/v1681150506/battleships-game/Bship-miss_cjxgit.png)  |
 | Hit   | ![Hit](https://res.cloudinary.com/duxsycizt/image/upload/v1681150528/battleships-game/Bship-hit_k5vhie.png)  |
 | Final results   | ![Final result](https://res.cloudinary.com/duxsycizt/image/upload/v1681410950/battleships-game/Scr-final_i15hev.png)  |
+| Final results   | ![Final result](https://res.cloudinary.com/duxsycizt/image/upload/v1681433017/battleships-game/small10_rpj7tx.png)  |
+
 
 
 
