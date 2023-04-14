@@ -1,6 +1,6 @@
 # BATTLESHIPS GAME
 
-![Battleships Game](https://res.cloudinary.com/duxsycizt/image/upload/v1681071164/battleships-game/Screenshot01_zctbai.png) 
+![Battleships Game](https://res.cloudinary.com/duxsycizt/image/upload/v1681458561/battleships-game/scr-new_zgwr4v.png) 
 
 ## Introduction
 
@@ -18,6 +18,7 @@ This is a simple implementation of the Battleships game in Python. In this game,
 - At the end of the game, the player is informed of the number of ships they sunk.
 
 To run the game, simply execute the Python script. The game will prompt the player to enter their shots below the table.
+You can visit the deployeded website [here](https://battleships-game11.herokuapp.com/).
 
 
 # [Table of contents](#table-of-contents)
@@ -62,7 +63,6 @@ Create a graphical interface for the game that includes a playing rid. Generate 
 - As a user, I want to know where the missed ships are located on the board.
 - As a user, I want to be able to restart the game.
 
-[Back to top ⇧](#table-of-contents)
    
 
 ## Flowchart
@@ -73,17 +73,21 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 | Flowchart   | ![Flowchart](https://res.cloudinary.com/duxsycizt/image/upload/v1681434405/battleships-game/miro_qrwsli.png)  |
 |              |                                                            |
 
+[Back to top ⇧](#table-of-contents)
+
 # Features
 
 |              |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Create a grid.  | ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681419842/battleships-game/grid_pxkptq.png) ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681429912/battleships-game/small3_akmhp7.png) ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681429912/battleships-game/small4_nazt49.png)  |
-| Target input: Collect the target information (x, y coordinate) from the user.| ![Targetinput](https://res.cloudinary.com/duxsycizt/image/upload/v1681420314/battleships-game/targetinput_pngevr.png)  |
-| Target input check: Check if the input is valid. The input is valid if the numbers are between 0 and 9 and there is a space used between the values.| ![Targetcheck](https://res.cloudinary.com/duxsycizt/image/upload/v1681408975/battleships-game/Scr-notspace_eqgwzg.png)![Targetcheck1](https://res.cloudinary.com/duxsycizt/image/upload/v1681409138/battleships-game/Scr-notnumber_sv50yn.png)![Targetcheck5](https://res.cloudinary.com/duxsycizt/image/upload/v1681409373/battleships-game/Scr-invalid3_kkcxmx.png)![Targetcheck6](https://res.cloudinary.com/duxsycizt/image/upload/v1681409223/battleships-game/Scr-toohigh_gbuiwt.png) ![Targetcheck7](https://res.cloudinary.com/duxsycizt/image/upload/v1681408876/battleships-game/Scr-invalid2_trwqhe.png)  
-| Target output: Print the shot on the board. Print 'X' if hit, 'O' if miss. | ![Targetcheck2](https://res.cloudinary.com/duxsycizt/image/upload/v1681420864/battleships-game/hit-miss_le5ben.png) 
-| Shot count: The game ends after 10 shots have been made. | ![Targetcheck3](https://res.cloudinary.com/duxsycizt/image/upload/v1681421023/battleships-game/shots1_dtw56o.png)![Targetcheck4](https://res.cloudinary.com/duxsycizt/image/upload/v1681421022/battleships-game/shots2_swzftf.png)![Targetcheck8](https://res.cloudinary.com/duxsycizt/image/upload/v1681421693/battleships-game/shots3_pohrvf.png)
-| Display the final results: After the last shot, display the final results. The player wins if they hit all the ships. | ![Targetcheck9](https://res.cloudinary.com/duxsycizt/image/upload/v1681410950/battleships-game/Scr-final_i15hev.png)
-| Restart: The player able to restert the game, the final massage assist.  | ![Targetcheck10](https://res.cloudinary.com/duxsycizt/image/upload/v1681421863/battleships-game/final5_jtzsim.png)
+| Create a grid.  | ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681419842/battleships-game/grid_pxkptq.png) ![Grid1](https://res.cloudinary.com/duxsycizt/image/upload/v1681429912/battleships-game/small3_akmhp7.png) ![Grid2](https://res.cloudinary.com/duxsycizt/image/upload/v1681429912/battleships-game/small4_nazt49.png) ![Grid3](https://res.cloudinary.com/duxsycizt/image/upload/v1681459140/battleships-game/small12_vgppkk.png)   |
+| Grid input | ![Targetinput1](https://res.cloudinary.com/duxsycizt/image/upload/v1681459357/battleships-game/small13_oxvhq4.png)  |
+| Grid input check: Check if the input is valid. The input is valid if the numbers are between 5 and 10.| ![Targetinput2](https://res.cloudinary.com/duxsycizt/image/upload/v1681432079/battleships-game/small9_ofzpcm.png)  |
+| Target input: Collect the target information (x, y coordinate) from the user.| ![Targetinput3](https://res.cloudinary.com/duxsycizt/image/upload/v1681420314/battleships-game/targetinput_pngevr.png)  |
+| Target input check: Check if the input is valid. The input is valid if the numbers are between 0 and 9 and there is a space used between the values.| ![Targetcheck](https://res.cloudinary.com/duxsycizt/image/upload/v1681408975/battleships-game/Scr-notspace_eqgwzg.png)![Targetcheck1](https://res.cloudinary.com/duxsycizt/image/upload/v1681409138/battleships-game/Scr-notnumber_sv50yn.png)![Targetcheck2](https://res.cloudinary.com/duxsycizt/image/upload/v1681409373/battleships-game/Scr-invalid3_kkcxmx.png)![Targetcheck3](https://res.cloudinary.com/duxsycizt/image/upload/v1681409223/battleships-game/Scr-toohigh_gbuiwt.png) ![Targetcheck4](https://res.cloudinary.com/duxsycizt/image/upload/v1681408876/battleships-game/Scr-invalid2_trwqhe.png)  
+| Target output: Print the shot on the board. Print 'X' if hit, 'O' if miss. | ![Targetoutput](https://res.cloudinary.com/duxsycizt/image/upload/v1681420864/battleships-game/hit-miss_le5ben.png) ![Targetoutput1](https://res.cloudinary.com/duxsycizt/image/upload/v1681459820/battleships-game/small16_squmop.png)  
+| Shot count: The game ends after 10 shots have been made. | ![Targetoutput2](https://res.cloudinary.com/duxsycizt/image/upload/v1681421023/battleships-game/shots1_dtw56o.png)![Targetoutput3](https://res.cloudinary.com/duxsycizt/image/upload/v1681421022/battleships-game/shots2_swzftf.png)![Targetoutput4](https://res.cloudinary.com/duxsycizt/image/upload/v1681421693/battleships-game/shots3_pohrvf.png)
+| Display the final results: After the last shot, display the final results. The player wins if they hit all the ships. | ![Finalresult](https://res.cloudinary.com/duxsycizt/image/upload/v1681410950/battleships-game/Scr-final_i15hev.png)![Finalresult1](https://res.cloudinary.com/duxsycizt/image/upload/v1681459695/battleships-game/small15_kpxc6e.png)
+| Restart: The player able to restert the game, the final massage assist.  | ![Finalresult2](https://res.cloudinary.com/duxsycizt/image/upload/v1681460127/battleships-game/small17_cd6y4k.png)
 
 
 
@@ -160,13 +164,19 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Checked when when enter grid size </td>
+        <td>Checked when enter grid size between 5 and 10 the grid is printed correctly or not</td>
         <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681431762/battleships-game/small7_hzni9i.png alt="Start game 01"></td>
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Checked when when enter grid size </td>
+        <td>Checked when when enter grid size between 5 and 10 grid printed correctly or not</td>
         <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681431860/battleships-game/small8_mbatxv.png alt="Start game 02"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Grid size</td>
+        <td>Validate if grid value is invalid</td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681432079/battleships-game/small9_ofzpcm.png alt="Grid input check"></td>
         <td>Pass</td>
     </tr>
     <tr>
@@ -262,7 +272,7 @@ No bugs remaining
 
 # Deployment
 
-The project has been deployed using [Heroku](https://id.heroku.com/) for the following steps:
+The program has been deployed using [Heroku](https://id.heroku.com/) for the following steps:
 1. Sign up to Heroku's website.
 2. On Heroku dashboard click "Create new app".
 3. Enter the "App name" and "Choose a region" than coose "Create app".
