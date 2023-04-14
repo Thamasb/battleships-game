@@ -132,6 +132,5 @@ if (not win):
     final_result()
     print("You sunk "+str(count_hit_ships(grid)) +
           " ship(s) out of " + str(NUM_SHIPS)+" ships."
-          """
-           /'S'=enemy ship(s)/
-           Click 'Run program' at the top left if you want to play again.""")
+          " /'S'=enemy ship(s)/"
+          " Click 'Run program' at the top left if you want to play again.")
