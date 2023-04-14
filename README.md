@@ -153,17 +153,17 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
     <tr>
         <td rowspan=3>Start game</td>
         <td>Checked when clicked 'Run Program' button, the program started or not</td>
-        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681430440/battleships-game/run_dqx4wa.png alt="Start game"></td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681431198/battleships-game/small6_e9k5px.png alt="Start game"></td>
         <td>Pass</td>
     </tr>
     <tr>
         <td>Checked when when enter grid size </td>
-        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681429301/battleships-game/small1_s8yq1b.png alt="Start game 01"></td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681431762/battleships-game/small7_hzni9i.png alt="Start game 01"></td>
         <td>Pass</td>
     </tr>
     <tr>
         <td>Checked when when enter grid size </td>
-        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681430792/battleships-game/small5_lddfxc.png alt="Start game 02"></td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681431860/battleships-game/small8_mbatxv.png alt="Start game 02"></td>
         <td>Pass</td>
     </tr>
     <tr>
@@ -216,7 +216,8 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
 
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Start   | ![Start](https://res.cloudinary.com/duxsycizt/image/upload/v1681150418/battleships-game/Bship-start_lhidb0.png)  |
+| Start   | ![Start](https://res.cloudinary.com/duxsycizt/image/upload/v1681431198/battleships-game/small6_e9k5px.png)  |
+| Invalid grid size input    | ![Invalid grid size input](https://res.cloudinary.com/duxsycizt/image/upload/v1681432079/battleships-game/small9_ofzpcm.png)  |
 | Invalid input    | ![Invalid input](https://res.cloudinary.com/duxsycizt/image/upload/v1681150478/battleships-game/Bship-invalid_dpcepz.png)  |
 | Invalid input    | ![Invalid input4](https://res.cloudinary.com/duxsycizt/image/upload/v1681412642/battleships-game/final4_rywm9z.png)  |
 | Empty input | ![Invalid input1](https://res.cloudinary.com/duxsycizt/image/upload/v1681412250/battleships-game/final1_wy0ucf.png)  |
@@ -242,6 +243,7 @@ You can visit the deployeded website [here](https://battleships-game11.herokuapp
 - I missed a few whitespaces and tabs, but I resolved them during the work.
 - At the end of the game, the final result was incorrect. However, I found the problem and fixed it. 
 - I noticed that the last shot was missing from the table. I added it to the last table that displayed all the shots that were missed. 
+- Because of parentheses the warning message at the beggining of the game didn't apper and the game is stopped.Howerver I found the problem and fixed it.
 
 ## Unsolved bugs
 No bugs remaining
@@ -250,7 +252,7 @@ No bugs remaining
 
 # Deployment
 
-The project has been deployed using [Heroku](https://id.heroku.com/) using the following steps:
+The project has been deployed using [Heroku](https://id.heroku.com/) for the following steps:
 1. Sign up to Heroku's website.
 2. On Heroku dashboard click "Create new app".
 3. Enter the "App name" and "Choose a region" than coose "Create app".
@@ -267,6 +269,7 @@ The project has been deployed using [Heroku](https://id.heroku.com/) using the f
 ## Content
 
 - How to code battleship in Python [Youtube](https://www.youtube.com/watch?v=tF1WRCrd_HQ)
+- Create and initialize 5x5 battleship game [Stack overflow](https://stackoverflow.com/questions/21434430/create-and-initialize-5x5-grid-for-battleships)
 - [Slack Community](https://slack.com/intl/en-ie/) used and consulted for inspiration.
 - All content was written by the developer.
 
