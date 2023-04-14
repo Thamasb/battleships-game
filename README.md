@@ -306,4 +306,4 @@ The deploying process on Heroku also available [here](https://devcenter.heroku.c
  - [YouTube - tutorials ](https://www.youtube.com/)
  - [Slack Community](https://slack.com/intl/en-ie/) 
 
- [Back to top ⇧](#table-of-contents)
+ [Back to top ⇧](#table-of-contents) 
