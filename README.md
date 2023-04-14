@@ -272,6 +272,8 @@ No bugs remaining
 
 # Deployment
 
+To deploy your app to Heroku, use the git push command to push the code from your local repostory's main branch to your heroku remote.
+
 The program has been deployed using [Heroku](https://id.heroku.com/) for the following steps:
 1. Sign up to Heroku's website.
 2. On Heroku dashboard click "Create new app".
@@ -282,6 +284,8 @@ The program has been deployed using [Heroku](https://id.heroku.com/) for the fol
 7. Go to the "Connect to GitHub" section and "Search" the repostory to be deployed than "Connect".
 8. Choose "Automatic deploys" or "Manual deploys" to deploy your application.
 
+The deploying process on Heroku also available [here](https://devcenter.heroku.com/articles/git).
+
 [Back to top ⇧](#table-of-contents)
 
 # Credits
@@ -290,6 +294,7 @@ The program has been deployed using [Heroku](https://id.heroku.com/) for the fol
 
 - How to code battleship in Python [Youtube](https://www.youtube.com/watch?v=tF1WRCrd_HQ)
 - Create and initialize 5x5 battleship game [Stack overflow](https://stackoverflow.com/questions/21434430/create-and-initialize-5x5-grid-for-battleships)
+- A Simple Battleships Game  [Coderview](https://codereview.stackexchange.com/questions/232013/a-simple-battleship-game)
 - [Slack Community](https://slack.com/intl/en-ie/) used and consulted for inspiration.
 - All content was written by the developer.
 
