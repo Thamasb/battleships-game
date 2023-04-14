@@ -76,7 +76,7 @@ To create the program flowchart [Miro](https://miro.com/) has been used.
 
 |              |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Create a grid and place the ships on the grid.  | ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681419842/battleships-game/grid_pxkptq.png)  |
+| Create a grid.  | ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681419842/battleships-game/grid_pxkptq.png) ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681429912/battleships-game/small3_akmhp7.png) ![Grid](https://res.cloudinary.com/duxsycizt/image/upload/v1681429912/battleships-game/small4_nazt49.png)  |
 | Target input: Collect the target information (x, y coordinate) from the user.| ![Targetinput](https://res.cloudinary.com/duxsycizt/image/upload/v1681420314/battleships-game/targetinput_pngevr.png)  |
 | Target input check: Check if the input is valid. The input is valid if the numbers are between 0 and 9 and there is a space used between the values.| ![Targetcheck](https://res.cloudinary.com/duxsycizt/image/upload/v1681408975/battleships-game/Scr-notspace_eqgwzg.png)![Targetcheck1](https://res.cloudinary.com/duxsycizt/image/upload/v1681409138/battleships-game/Scr-notnumber_sv50yn.png)![Targetcheck5](https://res.cloudinary.com/duxsycizt/image/upload/v1681409373/battleships-game/Scr-invalid3_kkcxmx.png)![Targetcheck6](https://res.cloudinary.com/duxsycizt/image/upload/v1681409223/battleships-game/Scr-toohigh_gbuiwt.png) ![Targetcheck7](https://res.cloudinary.com/duxsycizt/image/upload/v1681408876/battleships-game/Scr-invalid2_trwqhe.png)  
 | Target output: Print the shot on the board. Print 'X' if hit, 'O' if miss. | ![Targetcheck2](https://res.cloudinary.com/duxsycizt/image/upload/v1681420864/battleships-game/hit-miss_le5ben.png) 
@@ -151,9 +151,19 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) (from Code Institute) was 
         <th>PASS/FAIL</th>
     </tr>
     <tr>
-        <td>Start game</td>
+        <td rowspan=3>Start game</td>
         <td>Checked when clicked 'Run Program' button, the program started or not</td>
-        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681150418/battleships-game/Bship-start_lhidb0.png alt="Start game"></td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681430440/battleships-game/run_dqx4wa.png alt="Start game"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Checked when when enter grid size </td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681429301/battleships-game/small1_s8yq1b.png alt="Start game 01"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Checked when when enter grid size </td>
+        <td><img src=https://res.cloudinary.com/duxsycizt/image/upload/v1681430792/battleships-game/small5_lddfxc.png alt="Start game 02"></td>
         <td>Pass</td>
     </tr>
     <tr>
